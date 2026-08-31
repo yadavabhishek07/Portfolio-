@@ -30,7 +30,7 @@ export default function App() {
           <p className="flex gap-4">
             <a href="#home" className="hover:text-sky-500 transition-colors">Back to top</a>
             <span>&bull;</span>
-            <a href="https://github.com/abhisheky0718-svg" target="_blank" rel="noopener noreferrer" className="hover:text-sky-500 transition-colors">GitHub</a>
+            <a href="https://github.com/yadavabhishek07" target="_blank" rel="noopener noreferrer" className="hover:text-sky-500 transition-colors">GitHub</a>
           </p>
         </div>
       </footer>

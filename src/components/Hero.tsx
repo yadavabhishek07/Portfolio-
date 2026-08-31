@@ -92,7 +92,7 @@ export default function Hero() {
           {/* Social Links */}
           <div className="flex items-center gap-4 pt-4">
             <a
-              href="https://github.com/abhisheky0718-svg"
+              href="https://github.com/yadavabhishek07"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-900 dark:hover:bg-slate-800/80 text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white transition-all duration-200 cursor-pointer"

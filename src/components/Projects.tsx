@@ -28,7 +28,7 @@ export default function Projects() {
         'Structured context management logic to handle session history across web clients.'
       ],
       tech: ['React.js', 'Node.js', 'Express.js', 'Agentic AI Systems', 'API Integration'],
-      github: 'https://github.com/abhisheky0718-svg/botspoof',
+      github: 'https://github.com/yadavabhishek07/botspoof',
     },
     {
       id: 'proj2',
@@ -43,7 +43,7 @@ export default function Projects() {
         'Implemented seamless cloud-based image uploads via Cloudinary and integrated MongoDB Atlas for scalable, secure database management, deploying the final responsive application on Render.'
       ],
       tech: ['Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'JavaScript', 'Bootstrap', 'Joi', 'Cloudinary', 'Render'],
-      github: 'https://github.com/abhisheky0718-svg/dream-land',
+      github: 'https://github.com/yadavabhishek07/dream-land',
     },
     {
       id: 'proj3',
@@ -58,7 +58,7 @@ export default function Projects() {
         'Ensured highly accessible design structure following semantic standards.'
       ],
       tech: ['React.js', 'Node.js', 'UI/UX Design', 'CSS3', 'Responsive Layout'],
-      github: 'https://github.com/abhisheky0718-svg/pharmaguard',
+      github: 'https://github.com/yadavabhishek07/pharmaguard',
     }
   ];
 
