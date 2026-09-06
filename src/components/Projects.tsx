@@ -16,6 +16,22 @@ interface Project {
 export default function Projects() {
   const projects: Project[] = [
     {
+      id: 'proj0',
+      title: 'Note Vault – Secure Note-Sharing App',
+      category: 'Full Stack',
+      summary: 'Full-stack note-sharing platform on PostgreSQL and Drizzle ORM featuring self-destruct links, atomic SQL updates, and row-level locking.',
+      description: 'A full-stack, PERN-style secure note-sharing platform built with Next.js 14, PostgreSQL, and Drizzle ORM. Features atomic conditional SQL updates and row-level locking to eliminate race conditions on concurrent access, along with time-based and one-time self-destruct links with dynamic password protection.',
+      details: [
+        'Built a full-stack, PERN-style note-sharing platform on PostgreSQL with Drizzle ORM, using atomic, conditional SQL UPDATE statements and row-level locking to eliminate race conditions on concurrent link access.',
+        'Engineered time-based and one-time self-destruct share links with dynamic password protection, hashing keys via bcrypt and issuing JWT-based (jose) session cookies for secure authentication.',
+        'Designed a relational schema (users, notes, share_links) and modular REST API endpoints with Hono.js inside Next.js Route Handlers, validated by an automated API test suite.',
+        'Integrated embedded WASM PostgreSQL (@electric-sql/pglite) for zero-setup execution with support for production external PostgreSQL databases.'
+      ],
+      tech: ['Next.js 14', 'TypeScript', 'PostgreSQL', 'Drizzle ORM', 'Hono.js', 'Tailwind CSS', 'JWT (jose)', 'bcrypt'],
+      github: 'https://github.com/yadavabhishek07/Note_Taking_App',
+      live: 'https://note-taking-app-phi-ten.vercel.app',
+    },
+    {
       id: 'proj1',
       title: 'Botspoof – AI Chatbot',
       category: 'AI & APIs',
@@ -28,7 +44,8 @@ export default function Projects() {
         'Structured context management logic to handle session history across web clients.'
       ],
       tech: ['React.js', 'Node.js', 'Express.js', 'Agentic AI Systems', 'API Integration'],
-      github: 'https://github.com/yadavabhishek07/botspoof',
+      github: 'https://github.com/yadavabhishek07/BotSpoof',
+      live: 'https://botspoof-ujcg.onrender.com',
     },
     {
       id: 'proj2',
@@ -43,7 +60,8 @@ export default function Projects() {
         'Implemented seamless cloud-based image uploads via Cloudinary and integrated MongoDB Atlas for scalable, secure database management, deploying the final responsive application on Render.'
       ],
       tech: ['Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'JavaScript', 'Bootstrap', 'Joi', 'Cloudinary', 'Render'],
-      github: 'https://github.com/yadavabhishek07/dream-land',
+      github: 'https://github.com/yadavabhishek07/DreamLand',
+      live: 'https://dreamland-31ik.onrender.com',
     },
     {
       id: 'proj3',

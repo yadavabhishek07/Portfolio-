@@ -6,12 +6,12 @@ export default function About() {
     {
       title: 'Frontend Development',
       icon: <Layout className="h-5 w-5 text-sky-500" />,
-      skills: ['React.js', 'TypeScript', 'JavaScript (ES6+)', 'HTML5 & CSS3', 'Bootstrap', 'EJS'],
+      skills: ['Next.js', 'React.js', 'TypeScript', 'JavaScript (ES6+)', 'Tailwind CSS', 'Bootstrap', 'HTML5 & CSS3', 'EJS'],
     },
     {
       title: 'Backend & Databases',
       icon: <Terminal className="h-5 w-5 text-violet-500" />,
-      skills: ['Node.js', 'Express.js', 'REST APIs', 'MongoDB', 'Mongoose', 'MongoDB Atlas'],
+      skills: ['Node.js', 'Express.js', 'Hono.js', 'PostgreSQL', 'Drizzle ORM', 'MongoDB', 'Mongoose', 'REST APIs', 'MongoDB Atlas'],
     },
     {
       title: 'AI & Prompt Engineering',
@@ -41,14 +41,15 @@ export default function About() {
           {/* Main Bio Text */}
           <div className="lg:col-span-8 space-y-6 text-slate-655 dark:text-slate-350 text-left leading-relaxed text-base sm:text-lg">
             <p>
-              I am a dedicated **MERN Stack Developer** and **Agentic AI Solutions Architect** based in India. 
+              I am a dedicated **Full Stack Developer (MERN & PERN)** and **Agentic AI Solutions Architect** based in India. 
               My programming philosophy centers on writing clean, self-documenting code and implementing defensible systems logic 
               to address complex technical requirements.
             </p>
             <p>
               Over the course of my projects, I have specialized in bridging frontend experiences with highly optimized server layers. 
-              My backend work incorporates strict MVC pattern organization, secure validation (using Joi), and schema design in MongoDB. 
-              On the client-side, I design responsive structures utilizing React.js, Tailwind, and Bootstrap.
+              My backend work incorporates strict MVC pattern organization, secure validation, relational and document databases 
+              (PostgreSQL with Drizzle ORM, MongoDB with Mongoose), and performant API route handlers (Hono.js, Express.js). 
+              On the client-side, I design responsive structures utilizing Next.js, React.js, Tailwind CSS, and Bootstrap.
             </p>
             <p>
               Additionally, I specialize in building next-generation **Agentic AI integrations** using the Claude developer API. 
